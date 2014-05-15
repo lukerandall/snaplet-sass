@@ -19,7 +19,7 @@ Example Usage
 -------------
 
 Site.hs:
-```
+```haskell
 import Snap.Snaplet.Sass
 
 routes = [..., ("/sass", with sass sassServe)]
@@ -31,7 +31,7 @@ app = makeSnaplet "app" "A snaplet example application." Nothing $ do
 ```
 
 Application.hs:
-```
+```haskell
 import Snap.Snaplet.Sass
 
 data App = App { _sass :: Snaplet Sass }
