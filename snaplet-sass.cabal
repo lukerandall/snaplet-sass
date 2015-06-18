@@ -1,5 +1,5 @@
 name:                snaplet-sass
-version:             0.1.1.0
+version:             0.1.2.0
 synopsis:            Sass integration for Snap with request- and pre-compilation.
 description:         Sass integration for Snap with request based compilation during development and precompilation in production.
                      For more information, please see <https://github.com/lukerandall/snaplet-sass>.
